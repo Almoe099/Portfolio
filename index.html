@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="./assets/logogreatv2.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("jzCF7ZzMlKYlGo6II");
+    })();
+  </script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/009c432c0f.js" crossorigin="anonymous"></script>
+
+  <script src="index.js" defer></script>
+  <title>Almutasim Mohamed | Full-Stack Developer</title>
+</head>
+
+<body class="dark:bg-[#1c1d25] dark:text-white">
+  <section id="landing">
+    <!-- Navbar -->
+    <nav class="h-20 flex items-center" data-aos="fade-in" data-aos-delay="300">
+      <div class="container mx-auto max-w-6xl px-4 xs:px-6">
+        <div class="flex items-center justify-between ">
+          <!-- Logo -->
+          <a href="/" class="logo cursor-pointer z-30 flex items-center justify-center inline-flex ">
+            <svg width="84" height="84" version="1.0" xmlns="http://www.w3.org/2000/svg" width="300.000000pt"
+              height="250.000000pt" viewBox="0 0 300.000000 250.000000" preserveAspectRatio="xMidYMid meet">
+              <g transform="translate(0.000000,250.000000) scale(0.100000,-0.100000)" fill="#d42866" stroke="none">
+                <path
+                  d="M1369 2059 c-78 -11 -172 -44 -249 -86 -79 -44 -240 -203 -288 -285 -133 -226 -133 -550 0 -776 18 -32 78 -102 133 -157 84 -84 114 -108 185 -142 103 -51 180 -71 297 -79 155 -11 317 25 441 98 32 18 102 78 157 133 84 83 108 114 143 185 59 122 76 199 76 355 0 153 -15 219 -77 345 -34 71 -58 101 -142 185 -55 55 -125 115 -157 133 -144 85 -335 118 -519 91z m356 -73 c221 -75 384 -238 462 -461 25 -73 28 -92 28 -225 0 -133 -3 -152 -28 -225 -78 -223 -239 -384 -462 -462 -73 -25 -92 -28 -225 -28 -133 0 -152 3 -225 28 -224 78 -386 241 -461 462 -39 114 -45 277 -15 395 67 265 258 459 523 530 110 30 294 23 403 -14z" />
+                <path
+                  d="M1150 1492 c0 -5 26 -85 58 -178 l59 -169 54 -3 55 -3 13 38 c7 21 35 99 62 174 27 74 49 139 49 143 0 4 -21 6 -47 4 l-46 -3 -18 -55 c-10 -30 -29 -91 -42 -135 -14 -44 -27 -73 -29 -65 -3 8 -23 70 -44 138 l-38 122 -43 0 c-24 0 -43 -4 -43 -8z m96 -129 c16 -47 39 -100 53 -116 l25 -30 21 25 c12 14 34 64 49 112 26 80 40 105 52 93 3 -3 -9 -41 -26 -85 -17 -44 -33 -89 -35 -99 -13 -68 -44 -101 -78 -86 -17 8 -32 39 -65 135 -43 127 -49 154 -33 143 6 -3 22 -44 37 -92z" />
+                <path
+                  d="M1630 1489 c-29 -12 -77 -55 -92 -83 -6 -10 -12 -42 -15 -71 -13 -137 127 -236 251 -176 38 19 86 71 86 95 0 16 -83 4 -110 -15 -36 -27 -92 -21 -120 13 -35 41 -18 145 25 162 34 13 82 6 100 -14 13 -14 31 -20 62 -20 23 0 43 3 43 8 0 4 -9 21 -20 39 -36 60 -139 90 -210 62z m76 -32 c4 -4 -3 -7 -15 -7 -66 0 -118 -75 -107 -154 8 -53 37 -85 93 -104 l38 -12 -42 4 c-72 7 -108 47 -117 131 -5 48 16 98 53 124 37 26 81 34 97 18z m87 -34 c-15 -5 -73 24 -73 37 0 6 19 1 43 -11 23 -12 37 -24 30 -26z m-3 -212 c0 -12 -59 -35 -67 -27 -4 4 3 9 15 13 12 3 22 9 22 14 0 5 7 9 15 9 8 0 15 -4 15 -9z" />
+              </g>
+            </svg>
+
+          </a>
+          <!-- Links -->
+          <div class="hidden md:flex items-center gap-8">
+            <button class="nav__link" onclick="toggleContact()">
+              About
+            </button>
+            <a class="nav__link" href="#projects">
+              Projects
+            </a>
+            <button class="nav__link" onclick="toggleContact()">
+              Contact
+            </button>
+            <button onclick="toggleTheme()" class="hover:text-primary duration-200 ease">
+              <i class="fa-solid fa-circle-half-stroke"></i>
+            </button>
+          </div>
+          <!-- Hamburger -->
+          <button class="xs:hidden hamburger z-30" onclick="toggleMenu()">
+            <div class="hamburger__top"></div>
+            <div class="hamburger__middle"></div>
+            <div class="hamburger__bottom"></div>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <!-- Header -->
+    <header class="flex items-center" style="height: calc(100vh - 80px)">
+      <div class="container mx-auto max-w-6xl flex items-center px-4 xs:px-6">
+        <!-- Header Description -->
+        <div class="header__description flex flex-col z-10">
+          <div class="subheading mb-2 md:mb-4" data-aos="fade-up" data-aos-delay="500">
+            Hi, my name is
+          </div>
+          <div class="font-semibold text-4xl xxs:text-5xl xs:text-6xl md:text-8xl mb-1 xxs:mb-2 xs:mb-4"
+            data-aos="fade-up" data-aos-delay="600">ALmutasim Mohamed</div>
+          <div class="font-bold text-[22px] xxs:text-3xl xs:text-4xl sm:text-5xl md:text-6xl mb-4 text-primary"
+            data-aos="fade-up" data-aos-delay="700">
+            Full-Stack Developer
+          </div>
+          <p class="sm:text-lg max-w-lg mb-8 leading-relaxed" data-aos="fade-up" data-aos-delay="800">
+            I am a highly motivated and skilled full-stack software engineer with a genuine passion for continuous learning and a deep love for honing my problem-solving abilities.
+            Here's a bit more <span class="text-primary font-medium cursor-pointer nav__link"
+              onclick="toggleContact()">about me.</span>
+          </p>
+          <!-- Links -->
+          <div class="flex space-x-6 text-2xl" data-aos="fade-in" data-aos-delay="1200" data-aos-offset="-100">
+            <a href="https://www.linkedin.com/in/almutasim-mohamed-17464b2b2/" target="_blank" class="header__link group">
+              <i class="fa-brands fa-linkedin"></i>
+              <div class="header__link--label">LinkedIn</div>
+            </a>
+            <a href="https://github.com/Almoe099" target="_blank" class="header__link group">
+              <i class="fa-brands fa-github"></i>
+              <div class="header__link--label">GitHub</div>
+            </a>
+            <a href="./assets/Almutasim Mohamed Resume.pdf" target="_blank" class="header__link group">
+              <i class="fa-solid fa-file-pdf"></i>
+              <div class="header__link--label">Resume</div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Scroll Down -->
+      <a href="#projects" class="scroll absolute bottom-12 left-1/2 -translate-x-1/2 w-6 h-10 border-2 border-black dark:border-white rounded-full flex items-center justify-center
+      hover:scale-110 duration-200 ease">
+      </a>
+      <!-- Mail Button -->
+      <button
+        class="fixed bottom-6 right-6 xs:bottom-8 xs:right-8 md:bottom-12 md:right-12 z-10 lg:bottom-16 lg:right-16 h-14 w-14 xs:h-16 xs:w-16 lg:h-[72px] lg:w-[72px] bg-dark text-white rounded-full hover:scale-110 dark:bg-white dark:text-black mail__btn""
+        onclick=" toggleContact()">
+        <i class="fa-solid fa-envelope text-2xl lg:text-2xl leading-[20]"></i>
+      </button>
+    </header>
+    <!-- Stars -->
+    <div class="stars hidden dark:block">
+      <div class="star top-[26vh] left-[38vw] shade-3"></div>
+      <div class="star top-[11vh] left-[45vw] shade-2"></div>
+      <div class="star top-[83vh] left-[62vw] shade-1"></div>
+      <div class="star top-[34vh] left-[52vw] shade-1"></div>
+      <div class="star top-[63vh] left-[57vw] shade-1"></div>
+      <div class="star top-[20vh] left-[10vw] shade-2"></div>
+      <div class="star top-[63vh] left-[46vw] shade-3"></div>
+      <div class="star top-[69vh] left-[84vw] shade-3"></div>
+      <div class="star top-[24vh] left-[62vw] shade-1"></div>
+      <div class="star top-[42vh] left-[59vw] shade-1"></div>
+      <div class="star top-[72vh] left-[10vw] shade-3"></div>
+      <div class="star top-[31vh] left-[13vw] shade-2"></div>
+      <div class="star top-[40vh] left-[81vw] shade-2"></div>
+      <div class="star top-[76vh] left-[73vw] shade-3"></div>
+      <div class="star top-[79vh] left-[83vw] shade-1"></div>
+      <div class="star top-[73vh] left-[35vw] shade-1"></div>
+      <div class="star top-[19vh] left-[90vw] shade-3"></div>
+      <div class="star top-[20vh] left-[68vw] shade-2"></div>
+
+    </div>
+    <!-- Earth -->
+    <div class="cloud" style="background-image: url('./assets/squiggly.svg')"></div>
+    <div class="triangle" style="background-image: url('./assets/semi\ circle.svg')"></div>
+    <div class="semi" style="background-image: url('./assets/triangle.svg')"></div>
+    <!-- <div 
+    class="circle" 
+    style="background-image: url('./assets/circle.svg')"
+  ></div> -->
+
+  </section>
+  <!-- Menu -->
+  <div class="nav__menu--close fixed z-0 inset-y-0 left-0 w-[100vw] bg-black/50 xs:hidden" onclick="toggleMenu()"></div>
+  <div class="nav__menu fixed inset-y-0 right-0 bg-white dark:bg-dark z-20 xs:hidden
+  p-6 flex flex-col justify-center text-center text-lg gap-y-12 w-[75vw]">
+    <button onclick="toggleContact()">About</button>
+    <a onclick="toggleMenu()" href="#projects">Projects</a>
+    <button onclick="toggleContact()">Contact</button>
+    <button onclick="toggleTheme()" class="flex justify-center items-center gap-x-3">
+      <i class="fa-solid fa-moon text-lg"></i>
+      <span>
+        <span class="hidden dark:inline-block">Dark</span><span class="dark:hidden">Light</span> mode
+      </span>
+    </button>
+  </div>
+  <!-- <section id="testimonials">
+    <div class="container mx-auto max-w-6xl px-4 xs:px-6 py-12 xs:py-16 md:py-20 mb-16 xs:mb-24 md:mb-32 flex flex-col">
+      <div class="subheading mb-2 md:mb-4" data-aos="fade-up">
+        Client
+      </div>
+      <div class="font-semibold text-[40px] xs:text-6xl mb-12 md:mb-16" data-aos="fade-up">
+        Testimonials
+      </div>
+      <div class="swiper w-full h-full" data-aos="fade-up">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            Testimonial 1
+            <div class="flex flex-col justify-between space-y-8 sm:text-lg">
+              <p class="leading-loose italic">
+                "An absolute pleasure to work with. Was able to design what I wanted. Very efficient and creative.
+                My website www.rmjune2022.com was beautifully designed by him and I recommend him to any aspiring
+                website owners."
+              </p>
+              <div class="flex flex-col">
+                <div class="font-semibold leading-relaxed">
+                  Roseman University (Accelerated Bachelor of Science in Nursing)
+                </div>
+                <p class="text-sm sm:text-base mb-2">Asian-American Pacific Islander of Nevada President, Inigo Jimenez
+                </p>
+
+              </div>
+            </div>
+
+          </div>
+          <div class="swiper-slide">
+            Testimonial 2
+            <div class="flex flex-col justify-between space-y-8 sm:text-lg">
+              <p class="leading-loose italic">
+                "Van is an exemplary communicator, demonstrating unwavering trust and consistently delivering to our
+                satisfaction. We would eagerly choose to work with him again in the future."
+              </p>
+              <div class="flex flex-col">
+                <div class="font-semibold leading-relaxed">
+                  24-SevenCare Inc.
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-prev">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="#d42866" height="1em"
+            viewBox="0 0 256 512"> Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc.
+            <path
+              d="M9.4 278.6c-12.5-12.5-12.5-32.8 0-45.3l128-128c9.2-9.2 22.9-11.9 34.9-6.9s19.8 16.6 19.8 29.6l0 256c0 12.9-7.8 24.6-19.8 29.6s-25.7 2.2-34.9-6.9l-128-128z" />
+          </svg>
+        </div>
+        <div class="swiper-button-next">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="#d42866" height="1em"
+            viewBox="0 0 256 512"><! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc.
+            <path
+              d="M246.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-9.2-9.2-22.9-11.9-34.9-6.9s-19.8 16.6-19.8 29.6l0 256c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l128-128z" />
+          </svg>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section> -->
+  <section id="projects" class="relative">
+    <div class="container mx-auto max-w-6xl px-4 xs:px-6 py-12 xs:py-16 md:py-20 ">
+      <div class="subheading mb-2 md:mb-4" data-aos="fade-up">
+        Check out my
+      </div>
+      <div class="font-semibold text-[40px] xs:text-6xl mb-12 md:mb-16" data-aos="fade-up">
+        Projects
+      </div>
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 xs:gap-y-12 z-10">
+        <!-- Bacolod Jeep Routes -->
+
+        <div class="flex flex-col bg-white dark:bg-dark2 rounded-md overflow-hidden shadow-xl" data-aos="fade-up">
+          <figure class="relative pb-[56.25%] overflow-hidden">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="./assets/jeeproutes/jeep-routes1.png" alt="Jeep Routes"
+                    class="absolute object-cover object-center">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./assets/jeeproutes/jeep-routes2.png" alt="Jeep Routes"
+                    class="absolute object-cover object-center">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./assets/jeeproutes/jeep-routes3.png" alt="Jeep Routes"
+                    class="absolute object-cover object-center">
+                </div>
+
+                
+              </div>
+              <div class="swiper-pagination "></div>
+              <div class="swiper-button-prev">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="#d42866" height="1em"
+                  viewBox="0 0 256 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                  <path
+                    d="M9.4 278.6c-12.5-12.5-12.5-32.8 0-45.3l128-128c9.2-9.2 22.9-11.9 34.9-6.9s19.8 16.6 19.8 29.6l0 256c0 12.9-7.8 24.6-19.8 29.6s-25.7 2.2-34.9-6.9l-128-128z" />
+                </svg>
+              </div>
+              <div class="swiper-button-next">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="#d42866" height="1em"
+                  viewBox="0 0 256 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                  <path
+                    d="M246.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-9.2-9.2-22.9-11.9-34.9-6.9s-19.8 16.6-19.8 29.6l0 256c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l128-128z" />
+                </svg>
+              </div>
+            </div>
+          </figure>
+
+          <!-- Project Details -->
+          <div class="flex flex-col p-6 xs:p-8">
+            <h3 class="project__title">
+              Detonator-Dash
+            </h3>
+            <!-- Tags -->
+            <div class="flex flex-wrap gap-2 mb-4">
+              <div class="tag">JavaScript</div>
+              <div class="tag">Vanilla JavaScript</div>
+              <div class="tag">HTML</div>
+              <div class="tag">CSS</div>
+
+            </div>
+            <!-- Description -->
+            <p class="project__para">
+              Welcome to Detonator Dash, an exhilarating grid-based game where players strive to achieve the highest score by navigating a perilous landscape filled with coins, keys, and hidden bombs. The game introduces various elements, such as cool animations, a full interactive 8 by 8 grid, and strategic challenges that keep players on the edge of their seats.</p>
+
+            <!-- Buttons -->
+            <div class="flex  gap-2">
+              <a href="https://almoe099.github.io/Detonator-Dash/" target="_blank" class="project__link">
+                <i class="fa-solid fa-arrow-up-right-from-square text-sm"></i>
+                <span>Live App</span>
+              </a>
+              <a href="https://github.com/Almoe099/Detonator-Dash" target="_blank" class="project__link">
+                <i class="fa-brands fa-github text-sm"></i>
+                <span>GitHub</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- GOTADS.COM -->
+        <div class="flex flex-col bg-white dark:bg-dark2 rounded-md overflow-hidden shadow-xl" data-aos="fade-up">
+          <figure class="relative pb-[56.25%] overflow-hidden">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="./assets/gotads/got1.png" alt="GotAds" class="absolute object-cover object-center">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./assets/gotads/got2.png" alt="GotAds" class="absolute object-cover object-center">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./assets/gotads/got3.png" alt="GotAds" class="absolute object-cover object-center">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./assets/gotads/got4.png" alt="GotAds" class="absolute object-cover object-center">
+                </div>
+
+              </div>
+              <div class="swiper-pagination "></div>
+              <div class="swiper-button-prev">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="#d42866" height="1em"
+                  viewBox="0 0 256 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                  <path
+                    d="M9.4 278.6c-12.5-12.5-12.5-32.8 0-45.3l128-128c9.2-9.2 22.9-11.9 34.9-6.9s19.8 16.6 19.8 29.6l0 256c0 12.9-7.8 24.6-19.8 29.6s-25.7 2.2-34.9-6.9l-128-128z" />
+                </svg>
+              </div>
+              <div class="swiper-button-next">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="#d42866" height="1em"
+                  viewBox="0 0 256 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                  <path
+                    d="M246.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-9.2-9.2-22.9-11.9-34.9-6.9s-19.8 16.6-19.8 29.6l0 256c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l128-128z" />
+                </svg>
+              </div>
+            </div>
+          </figure>
+          <!-- Project Details -->
+          <div class="flex flex-col p-6 xs:p-8">
+            <h3 class="project__title">
+              Azon
+            </h3>
+            <!-- Tags -->
+            <div class="flex flex-wrap gap-2 mb-4">
+              <div class="tag">React</div>
+              <div class="tag">Ruby on Rails</div>
+              <div class="tag">SQL</div>
+              <div class="tag">AWS</div>
+
+            </div>
+            <!-- Description -->
+            <p class="project__para">
+              Azon is a sophisticated emulation of Amazon, providing users with a seamless e-commerce experience reminiscent of the renowned multinational giant. 
+              With an extensive range of products and a dynamic homepage, Azon simplifies browsing and shopping, offering unparalleled ease, efficiency, and convenience. </p>
+
+            <!-- Buttons -->
+            <div class="flex  gap-2">
+              <a href="https://azon.onrender.com/" target="_blank" class="project__link">
+                <i class="fa-solid fa-arrow-up-right-from-square text-sm"></i>
+                <span>Live App</span>
+              </a>
+              <a href="https://github.com/Almoe099/Azon" target="_blank" class="project__link">
+                <i class="fa-brands fa-github text-sm"></i>
+                <span>GitHub</span>
+              </a>
+            </div>
+          </div>
+        
+        </div>
+        <div class="flex flex-col bg-white dark:bg-dark2 rounded-md overflow-hidden shadow-xl" data-aos="fade-up">
+          <figure class="relative pb-[56.25%] overflow-hidden">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="./assets/marketplace/marketplace-tb.PNG" alt="MarketPlace"
+                    class="absolute object-cover object-center">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./assets/marketplace/marketplace-tb-3.PNG" alt="MarketPlace"
+                    class="absolute object-cover object-center">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./assets/marketplace/marketplace-tb-4.PNG" alt="MarketPlace"
+                    class="absolute object-cover object-center">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./assets/marketplace/marketplace-tb-5.PNG" alt="MarketPlace"
+                    class="absolute object-cover object-center">
+                </div>
+
+              </div>
+              <div class="swiper-pagination "></div>
+              <div class="swiper-button-prev">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="#d42866" height="1em"
+                  viewBox="0 0 256 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                  <path
+                    d="M9.4 278.6c-12.5-12.5-12.5-32.8 0-45.3l128-128c9.2-9.2 22.9-11.9 34.9-6.9s19.8 16.6 19.8 29.6l0 256c0 12.9-7.8 24.6-19.8 29.6s-25.7 2.2-34.9-6.9l-128-128z" />
+                </svg>
+              </div>
+              <div class="swiper-button-next">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="#d42866" height="1em"
+                  viewBox="0 0 256 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                  <path
+                    d="M246.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-9.2-9.2-22.9-11.9-34.9-6.9s-19.8 16.6-19.8 29.6l0 256c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l128-128z" />
+                </svg>
+              </div>
+            </div>
+          </figure>
+          <!-- Project Details -->
+          <div class="flex flex-col p-6 xs:p-8">
+            <h3 class="project__title">
+              TravelAI
+            </h3>
+            <!-- Tags -->
+            <div class="flex flex-wrap gap-2 mb-4">
+              <div class="tag">MongoDB</div>
+              <div class="tag">Express</div>
+              <div class="tag">React</div>
+              <div class="tag">Node</div>
+              <div class="tag">OpenAI</div>
+              <div class="tag">AWS</div>
+            </div>
+            <!-- Description -->
+            <p class="project__para">
+              The purpose of the Travel Planner Application is to provide users with a comprehensive and seamless platform for planning and organizing their travel experiences. 
+              It aims to streamline the entire process, from personalized destination recommendations to dynamic itinerary planning, note-taking, and document management. 
+              By integrating AI-powered suggestions, user authentication, and intuitive interfaces, the app aims to enhance the travel planning experience, making it more efficient, personalized, and enjoyable for users. </p>
+
+            <!-- Buttons -->
+            <div class="flex flex-wrap gap-2">
+              <a href="https://travelaiapp.onrender.com/" target="_blank" class="project__link">
+                <i class="fa-solid fa-arrow-up-right-from-square text-sm"></i>
+                <span>Live App</span>
+              </a>
+              <a href="https://github.com/Almoe099/TravelAI" target="_blank" class="project__link">
+                <i class="fa-brands fa-github text-sm"></i>
+                <span>GitHub</span>
+              </a>
+            </div>
+          </div>
+        </div>
+    
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark2 text-white relative">
+    <div class="container mx-auto max-w-6xl px-4 xs:px-6 pt-16 pb-24">
+      <div
+        class="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-8 gap-y-12 text-center xs:text-left">
+        <!-- Logo -->
+        
+        <!-- Projects -->
+        <div class="flex flex-col items-center xs:items-start col-span-1">
+          <div class="font-semibold mb-4">Projects</div>
+          <div class="grid grid-cols-2 gap-y-3 gap-x-3 text-sm">
+
+            <a href="https://almoe099.github.io/Detonator-Dash/" target="_blank"
+              class="text-gray-200 hover:text-white duration-200 ease">
+              Detonator-Dash
+            </a>
+
+            <a href="https://azon.onrender.com/" target="_blank"
+              class="text-gray-200 hover:text-white duration-200 ease">
+              Azon
+            </a>
+
+            <a href="https://travelaiapp.onrender.com/" target="_blank"
+              class="text-gray-200 hover:text-white duration-200 ease">
+              TravelAI
+            </a>
+
+          </div>
+        </div>
+        <!-- Socials -->
+        <div class="flex flex-col items-center xs:items-start col-span-1">
+          <div class="font-semibold mb-4">External</div>
+          <div class="flex flex-col gap-y-3 text-sm">
+
+            <a href="https://github.com/Almoe099" target="_blank"
+              class="text-gray-200 hover:text-white duration-200 ease">
+              GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/almutasim-mohamed-17464b2b2/" target="_blank"
+              class="text-gray-200 hover:text-white duration-200 ease">
+              LinkedIn
+            </a>
+
+          </div>
+        </div>
+        <!-- Information -->
+        <div class="flex flex-col items-center xs:items-start col-span-1 xs:col-span-2 md:col-span-1">
+          <div class="font-semibold mb-4">Information</div>
+          <div class="flex flex-col gap-y-3 text-sm">
+
+            <a href="mailto:almoe099@gmail.com"
+              class="flex justify-center xs:justify-start items-center space-x-2 text-gray-200 hover:text-white duration-200 ease cursor-pointer">
+              <i class="fa-solid fa-envelope"></i>
+              <span>almoe099@gmail.com</span>
+            </a>
+            <!-- <div
+              class="flex justify-center xs:justify-start items-center space-x-2 text-gray-200 hover:text-white duration-200 ease cursor-pointer">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>Henderson, Nevada</span>
+            </div> -->
+            <a href="./assets/Almutasim Mohamed Resume.pdf" target="_blank"
+              class="flex justify-center xs:justify-start items-center space-x-2 text-gray-200 hover:text-white duration-200 ease cursor-pointer">
+              <i class="fa-solid fa-file-pdf"></i>
+              <span>Resume</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Modal -->
+  <div
+    class="modal container mx-auto max-w-6xl md:fixed md:inset-0 flex md:px-6 items-center justify-center z-40 pointer-events-none">
+    <div class="modal__background md:fixed inset-0 pointer-events-auto" onclick="toggleContact()"></div>
+    <div
+      class="w-full flex flex-col-reverse md:flex-row shadow-xl pointer-events-auto md:h-auto md:relative md:inset-auto modal__body">
+      <!-- Modal About -->
+      <div class="modal__about flex-1 flex flex-col bg-white text-black px-8 xs:px-12 lg:px-16">
+        <h2 class="modal__heading">About Me</h2>
+        <div class="modal__subheading font-medium">Full-Stack Developer</div>
+        <p class="project__para font-medium">
+          As a <span class="font-bold text-primary">Full-Stack Developer</span>, I am driven by a fervent commitment to 
+          <span class="font-bold text-primary">creativity</span> and <span class="font-bold text-primary">critical thinking</span>.
+           Continuously honing my expertise, I dedicate myself to mastering <span class="font-bold text-primary">data structures</span> and 
+           <span class="font-bold text-primary">algorithms</span>, while crafting <span class="font-bold text-primary">web applications</span> 
+           designed to provide seamless and immersive user experiences.
+        </p>
+        
+
+
+        <p class="project__para font-medium"> 
+          I am enthusiastic about working in a <span class="font-bold text-primary">team-oriented environment</span> as it fosters diverse ideas and provides a valuable opportunity for learning from others.
+        </p>
+        <div class="grid grid-cols-4 gap-y-4">
+          <div class="group language">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png"
+              class="group-hover:scale-75 duration-200 ease" alt="">
+            <div class="language__name">
+              HTML5
+            </div>
+          </div>
+          <div class="group language">
+            <img src="https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png"
+              class="group-hover:scale-75 duration-200 ease" alt="">
+            <div class="language__name">
+              CSS3
+            </div>
+          </div>
+          <div class="group language">
+            <img src="https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png"
+              class="group-hover:scale-75 duration-200 ease" alt="">
+            <div class="language__name">
+              JavaScript
+            </div>
+          </div>
+          <div class="group language">
+            <img src="https://cdn.iconscout.com/icon/free/png-256/react-3-1175109.png"
+              class="group-hover:scale-75 duration-200 ease" alt="">
+            <div class="language__name">
+              React
+            </div>
+          </div>
+          <div class="group language">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/46/Touchicon-180.png"
+              class="group-hover:scale-75 duration-200 ease" alt="">
+            <div class="language__name">
+              Firebase
+            </div>
+          </div>
+          <div class="group language">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg"
+              class="group-hover:scale-75 duration-200 ease" alt="">
+            <div class="language__name">
+              Git
+            </div>
+          </div>
+          <div class="group language">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/198px-Ruby_logo.svg.png?20101129171534"
+              alt="" class="group-hover:scale-75 duration-200 ease" alt="">
+            <div class="language__name">
+              Ruby
+            </div>
+          </div>
+          <div class="group language">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Ruby_on_Rails_logo.svg/640px-Ruby_on_Rails_logo.svg.png"
+              alt="" alt="" class="group-hover:scale-75 duration-200 ease" alt="">
+            <div class="language__name">
+              Rails
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal Contact -->
+      <div class="modal__contact flex-1 flex flex-col bg-dark text-white px-8 xs:px-12 lg:px-16 relative">
+        <h2 class="modal__heading">Contact Me</h2>
+        <div class="modal__subheading">I'm currently open to new opportunities.</div>
+        <!-- Contact Form -->
+        <form class="flex-1 flex flex-col" onsubmit="contact(event)">
+          <div class="input-group">
+            <label>Name</label>
+            <input type="text" name="user_name" required>
+            <div class="absolute -bottom-1 h-1 w-full bg-white"></div>
+            <div class="line-1"></div>
+            <div class="line-2"></div>
+          </div>
+          <div class="input-group">
+            <label>Email</label>
+            <input type="text" name="user_email" required>
+            <div class="absolute -bottom-1 h-1 w-full bg-white"></div>
+            <div class="line-1"></div>
+            <div class="line-2"></div>
+          </div>
+          <div class="input-group flex-1 flex flex-col">
+            <label>Message</label>
+            <textarea class="flex-1" name="message" required></textarea>
+            <div class="absolute -bottom-1 h-1 w-full bg-white"></div>
+            <div class="line-1"></div>
+            <div class="line-2"></div>
+          </div>
+          <button class="modal__btn">
+            <div class="font-semibold z-10">Send Message</div>
+          </button>
+        </form>
+        <!-- Close Button - Above 768px -->
+        <div class="absolute top-7 right-7 md:top-8 md:right-8 z-40" onclick="toggleContact()">
+          <div class="hamburger">
+            <div class="hamburger__top"></div>
+            <div class="hamburger__bottom"></div>
+          </div>
+        </div>
+        <div class="modal__overlay modal__loading">
+          <div class="modal__spinner">
+            <div class="check__icon--wrapper">
+              <div class="check__icon">
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal__overlay modal__success">
+          <p class="modal__success--para leading-relaxed">Thanks for the message!</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
