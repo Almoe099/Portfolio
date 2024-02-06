@@ -64,10 +64,10 @@ async function contact(event) {
  
   try {
     await emailjs.sendForm(
-      'service_1xz4x4f',
-      'template_j8ncicf',
+      'service_x7p8zps',
+      'template_3mb51vn',
         event.target,
-      'jzCF7ZzMlKYlGo6II'
+      'zOk9HKruBwUrh7I1I'
     )
     document.body.classList.add('checkmark');
     setTimeout(() => {

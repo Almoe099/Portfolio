@@ -1241,7 +1241,7 @@ header {
   bottom: -2px;
   right: 0;
   width: 0%;
-  background: #1E90FF;
+  background: #d42866;
   transition: all 200ms ease;
 }
 
@@ -1859,6 +1859,7 @@ nav,
   padding-top: 1rem;
   padding-bottom: 1rem;
   text-align: center;
+  margin-bottom: 175px;
 }
 
 .modal__btn::before {
@@ -2217,7 +2218,7 @@ nav,
 }
 
 .swiper-pagination-bullet-active {
-  background: #1E90FF !important;
+  background: #d42866 !important;
 }
 
 /* Testimonials */
@@ -2678,10 +2679,15 @@ nav,
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #1E90FF; 
+  background-color: #6A5ACD; 
   border: 1px solid #000000;
 }
 
 ::-webkit-scrollbar-track {
   background-color: #fff;
+}
+
+.footercolumn {
+  display: flex !important;
+  justify-content: center !important;
 }

@@ -11,7 +11,10 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
+  
   <link rel="stylesheet" href="styles.css">
+  
+  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
   </script>
@@ -456,76 +459,53 @@
       </div>
     </div>
   </section>
-
   <footer class="bg-dark2 text-white relative">
-    <div class="container mx-auto max-w-6xl px-4 xs:px-6 pt-16 pb-24">
-      <div
-        class="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-8 gap-y-12 text-center xs:text-left">
-        <!-- Logo -->
-        
-        <!-- Projects -->
-        <div class="flex flex-col items-center xs:items-start col-span-1">
-          <div class="font-semibold mb-4">Projects</div>
-          <div class="grid grid-cols-2 gap-y-3 gap-x-3 text-sm">
-
-            <a href="https://almoe099.github.io/Detonator-Dash/" target="_blank"
-              class="text-gray-200 hover:text-white duration-200 ease">
-              Detonator-Dash
-            </a>
-
-            <a href="https://azon.onrender.com/" target="_blank"
-              class="text-gray-200 hover:text-white duration-200 ease">
-              Azon
-            </a>
-
-            <a href="https://travelaiapp.onrender.com/" target="_blank"
-              class="text-gray-200 hover:text-white duration-200 ease">
-              TravelAI
-            </a>
-
+    <div class="footercolumn">
+      <div class="container mx-auto max-w-6xl px-4 xs:px-6 pt-16 pb-24">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+          <!-- Projects -->
+          <div class="flex flex-col items-center">
+            <div class="font-semibold mb-4">Projects</div>
+            <div class="grid grid-cols-2 gap-y-3 gap-x-3 text-sm">
+              <a href="https://almoe099.github.io/Detonator-Dash/" target="_blank"
+                class="text-gray-200 hover:text-white duration-200 ease">Detonator-Dash</a>
+              <a href="https://azon.onrender.com/" target="_blank"
+                class="text-gray-200 hover:text-white duration-200 ease">Azon</a>
+              <a href="https://travelaiapp.onrender.com/" target="_blank"
+                class="text-gray-200 hover:text-white duration-200 ease">TravelAI</a>
+            </div>
           </div>
-        </div>
-        <!-- Socials -->
-        <div class="flex flex-col items-center xs:items-start col-span-1">
-          <div class="font-semibold mb-4">External</div>
-          <div class="flex flex-col gap-y-3 text-sm">
-
-            <a href="https://github.com/Almoe099" target="_blank"
-              class="text-gray-200 hover:text-white duration-200 ease">
-              GitHub
-            </a>
-            <a href="https://www.linkedin.com/in/almutasim-mohamed-17464b2b2/" target="_blank"
-              class="text-gray-200 hover:text-white duration-200 ease">
-              LinkedIn
-            </a>
-
+          <!-- Socials -->
+          <div class="flex flex-col items-center">
+            <div class="font-semibold mb-4">External</div>
+            <div class="flex flex-col gap-y-3 text-sm">
+              <a href="https://github.com/Almoe099" target="_blank"
+                class="text-gray-200 hover:text-white duration-200 ease">GitHub</a>
+              <a href="https://www.linkedin.com/in/almutasim-mohamed-17464b2b2/" target="_blank"
+                class="text-gray-200 hover:text-white duration-200 ease">LinkedIn</a>
+            </div>
           </div>
-        </div>
-        <!-- Information -->
-        <div class="flex flex-col items-center xs:items-start col-span-1 xs:col-span-2 md:col-span-1">
-          <div class="font-semibold mb-4">Information</div>
-          <div class="flex flex-col gap-y-3 text-sm">
-
-            <a href="mailto:almoe099@gmail.com"
-              class="flex justify-center xs:justify-start items-center space-x-2 text-gray-200 hover:text-white duration-200 ease cursor-pointer">
-              <i class="fa-solid fa-envelope"></i>
-              <span>almoe099@gmail.com</span>
-            </a>
-            <!-- <div
-              class="flex justify-center xs:justify-start items-center space-x-2 text-gray-200 hover:text-white duration-200 ease cursor-pointer">
-              <i class="fa-solid fa-location-dot"></i>
-              <span>Henderson, Nevada</span>
-            </div> -->
-            <a href="./assets/Almutasim Mohamed Resume.pdf" target="_blank"
-              class="flex justify-center xs:justify-start items-center space-x-2 text-gray-200 hover:text-white duration-200 ease cursor-pointer">
-              <i class="fa-solid fa-file-pdf"></i>
-              <span>Resume</span>
-            </a>
+          <!-- Information -->
+          <div class="flex flex-col items-center">
+            <div class="font-semibold mb-4">Information</div>
+            <div class="flex flex-col gap-y-3 text-sm">
+              <a href="mailto:almoe099@gmail.com"
+                class="flex justify-center items-center space-x-2 text-gray-200 hover:text-white duration-200 ease cursor-pointer">
+                <i class="fa-solid fa-envelope"></i>
+                <span>almoe099@gmail.com</span>
+              </a>
+              <a href="./assets/Almutasim Mohamed Resume.pdf" target="_blank"
+                class="flex justify-center items-center space-x-2 text-gray-200 hover:text-white duration-200 ease cursor-pointer">
+                <i class="fa-solid fa-file-pdf"></i>
+                <span>Resume</span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </footer>
+  
   <!-- Modal -->
   <div
     class="modal container mx-auto max-w-6xl md:fixed md:inset-0 flex md:px-6 items-center justify-center z-40 pointer-events-none">
@@ -550,21 +530,7 @@
           I am enthusiastic about working in a <span class="font-bold text-primary">team-oriented environment</span> as it fosters diverse ideas and provides a valuable opportunity for learning from others.
         </p>
         <div class="grid grid-cols-4 gap-y-4">
-          <div class="group language">
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png"
-              class="group-hover:scale-75 duration-200 ease" alt="">
-            <div class="language__name">
-              HTML5
-            </div>
-          </div>
-          <div class="group language">
-            <img src="https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png"
-              class="group-hover:scale-75 duration-200 ease" alt="">
-            <div class="language__name">
-              CSS3
-            </div>
-          </div>
+
           <div class="group language">
             <img src="https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png"
               class="group-hover:scale-75 duration-200 ease" alt="">
@@ -572,27 +538,7 @@
               JavaScript
             </div>
           </div>
-          <div class="group language">
-            <img src="https://cdn.iconscout.com/icon/free/png-256/react-3-1175109.png"
-              class="group-hover:scale-75 duration-200 ease" alt="">
-            <div class="language__name">
-              React
-            </div>
-          </div>
-          <div class="group language">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/4/46/Touchicon-180.png"
-              class="group-hover:scale-75 duration-200 ease" alt="">
-            <div class="language__name">
-              Firebase
-            </div>
-          </div>
-          <div class="group language">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg"
-              class="group-hover:scale-75 duration-200 ease" alt="">
-            <div class="language__name">
-              Git
-            </div>
-          </div>
+
           <div class="group language">
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/198px-Ruby_logo.svg.png?20101129171534"
@@ -601,14 +547,83 @@
               Ruby
             </div>
           </div>
+
           <div class="group language">
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Ruby_on_Rails_logo.svg/640px-Ruby_on_Rails_logo.svg.png"
-              alt="" alt="" class="group-hover:scale-75 duration-200 ease" alt="">
+              alt="" class="group-hover:scale-75 duration-200 ease" alt="">
             <div class="language__name">
               Rails
             </div>
           </div>
+          
+          <div class="group language">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg" class="group-hover:scale-75 duration-200 ease"/>
+            <div class="language__name">
+              Redux
+            </div>
+          </div>
+
+          <div class="group language">
+            <img width="96" height="96" src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-mongodb-a-cross-platform-document-oriented-database-program-logo-color-tal-revivo.png" alt="external-mongodb-a-cross-platform-document-oriented-database-program-logo-color-tal-revivo" class="group-hover:scale-75 duration-200 ease"/>
+            <div class="language__name">
+              MongoDB
+            </div>
+          </div>
+
+          <div class="group language">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" class="group-hover:scale-75 duration-200 ease" />
+            <div class="language__name">
+              Express.js
+            </div>
+          </div>
+
+          <div class="group language">
+            <img src="https://cdn.iconscout.com/icon/free/png-256/react-3-1175109.png"
+              class="group-hover:scale-75 duration-200 ease" alt="">
+            <div class="language__name">
+              React
+            </div>
+          </div>
+          
+          <div class="group language">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" class="group-hover:scale-75 duration-200 ease"/>
+            <div class="language__name">
+              Node.js
+            </div>
+          </div>
+
+          <div class="group language">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"class="group-hover:scale-75 duration-200 ease" />
+            <div class="language__name">
+              GitHub
+            </div>
+          </div>
+
+          <div class="group language">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png"
+              class="group-hover:scale-75 duration-200 ease" alt="">
+            <div class="language__name">
+              HTML
+            </div>
+          </div>
+
+          <div class="group language">
+            <img src="https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png"
+              class="group-hover:scale-75 duration-200 ease" alt="">
+            <div class="language__name">
+              CSS
+            </div>
+          </div>
+          
+          <div class="group language">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" class="group-hover:scale-75 duration-200 ease" />
+            <div class="language__name">
+              AWS
+            </div>
+          </div>
+        
         </div>
       </div>
       <!-- Modal Contact -->
