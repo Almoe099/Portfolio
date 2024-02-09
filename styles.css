@@ -1850,6 +1850,7 @@ nav,
   border: 2px solid white !important;
 }
 
+
 .modal__btn {
   position: relative;
   margin-top: 0.5rem;
@@ -1859,7 +1860,7 @@ nav,
   padding-top: 1rem;
   padding-bottom: 1rem;
   text-align: center;
-  /* margin-bottom: 175px; */
+  /* margin-bottom: 100px; */
 }
 
 .modal__btn::before {

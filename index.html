@@ -336,6 +336,12 @@
                 <div class="swiper-slide">
                   <img src="./assets/Azon/Azon3.png" alt="Azon" class="absolute object-cover object-center">
                 </div>
+                <div class="swiper-slide">
+                  <img src="./assets/Azon/Azon4.png" alt="Azon" class="absolute object-cover object-center">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./assets/Azon/Azon5.png" alt="Azon" class="absolute object-cover object-center">
+                </div>
 
               </div>
               <div class="swiper-pagination "></div>
@@ -507,13 +513,16 @@
   </footer>
   
   <!-- Modal -->
-  <div
-    class="modal container mx-auto max-w-6xl md:fixed md:inset-0 flex md:px-6 items-center justify-center z-40 pointer-events-none">
+    <!-- Modal -->
+  <div class="modal container mx-auto max-w-7xl md:fixed md:inset-0 flex md:px-6 items-center justify-center z-40 pointer-events-none">
     <div class="modal__background md:fixed inset-0 pointer-events-auto" onclick="toggleContact()"></div>
-    <div
-      class="w-full flex flex-col-reverse md:flex-row shadow-xl pointer-events-auto md:h-auto md:relative md:inset-auto modal__body">
+    <div class="w-full flex flex-col-reverse md:flex-row shadow-xl pointer-events-auto md:h-auto md:relative md:inset-auto modal__body">
       <!-- Modal About -->
-      <div class="modal__about flex-1 flex flex-col bg-white text-black px-8 xs:px-12 lg:px-16">
+      <div class="modal__about flex-1 flex flex-col bg-white text-black px-8 xs:px-10 lg:px-12">
+        <div class="modal__image-container flex justify-center">
+          <img src="https://amasphere-seeds1.s3.amazonaws.com/Screenshot+2024-02-01+at+4.53.48+PM.png" alt="Profile Picture" class="rounded-full w-48 h-48 object-cover mx-auto">
+        </div>
+        
         <h2 class="modal__heading">About Me</h2>
         <div class="modal__subheading font-medium">Full-Stack Developer</div>
         <p class="project__para font-medium">
@@ -523,114 +532,67 @@
            <span class="font-bold text-primary">algorithms</span>, while crafting <span class="font-bold text-primary">web applications</span> 
            designed to provide seamless and immersive user experiences.
         </p>
-        
-
-
         <p class="project__para font-medium"> 
           I am enthusiastic about working in a <span class="font-bold text-primary">team-oriented environment</span> as it fosters diverse ideas and provides a valuable opportunity for learning from others.
         </p>
-        <div class="grid grid-cols-4 gap-y-4">
-
+        <!-- Adjusted grid for two rows of six icons -->
+        <div class="grid grid-cols-6 gap-y-4 mt-4">
           <div class="group language">
-            <img src="https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png"
-              class="group-hover:scale-75 duration-200 ease" alt="">
-            <div class="language__name">
-              JavaScript
-            </div>
+            <img src="https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png" class="group-hover:scale-75 duration-200 ease" alt="JavaScript">
+            <div class="language__name">JavaScript</div>
           </div>
-
           <div class="group language">
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/198px-Ruby_logo.svg.png?20101129171534"
-              alt="" class="group-hover:scale-75 duration-200 ease" alt="">
-            <div class="language__name">
-              Ruby
-            </div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/198px-Ruby_logo.svg.png" class="group-hover:scale-75 duration-200 ease" alt="Ruby">
+            <div class="language__name">Ruby</div>
           </div>
-
           <div class="group language">
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Ruby_on_Rails_logo.svg/640px-Ruby_on_Rails_logo.svg.png"
-              alt="" class="group-hover:scale-75 duration-200 ease" alt="">
-            <div class="language__name">
-              Rails
-            </div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Ruby_on_Rails_logo.svg/640px-Ruby_on_Rails_logo.svg.png" class="group-hover:scale-75 duration-200 ease" alt="Rails">
+            <div class="language__name">Rails</div>
           </div>
-          
           <div class="group language">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg" class="group-hover:scale-75 duration-200 ease"/>
-            <div class="language__name">
-              Redux
-            </div>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg" class="group-hover:scale-75 duration-200 ease" alt="Redux">
+            <div class="language__name">Redux</div>
           </div>
-
           <div class="group language">
-            <img width="96" height="96" src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-mongodb-a-cross-platform-document-oriented-database-program-logo-color-tal-revivo.png" alt="external-mongodb-a-cross-platform-document-oriented-database-program-logo-color-tal-revivo" class="group-hover:scale-75 duration-200 ease"/>
-            <div class="language__name">
-              MongoDB
-            </div>
+            <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-mongodb-a-cross-platform-document-oriented-database-program-logo-color-tal-revivo.png" class="group-hover:scale-75 duration-200 ease" alt="MongoDB">
+            <div class="language__name">MongoDB</div>
           </div>
-
           <div class="group language">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" class="group-hover:scale-75 duration-200 ease" />
-            <div class="language__name">
-              Express.js
-            </div>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" class="group-hover:scale-75 duration-200 ease" alt="Express.js">
+            <div class="language__name">Express.js</div>
           </div>
-
+          <!-- Second row of icons starts here -->
           <div class="group language">
-            <img src="https://cdn.iconscout.com/icon/free/png-256/react-3-1175109.png"
-              class="group-hover:scale-75 duration-200 ease" alt="">
-            <div class="language__name">
-              React
-            </div>
+            <img src="https://cdn.iconscout.com/icon/free/png-256/react-3-1175109.png" class="group-hover:scale-75 duration-200 ease" alt="React">
+            <div class="language__name">React</div>
           </div>
-          
           <div class="group language">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" class="group-hover:scale-75 duration-200 ease"/>
-            <div class="language__name">
-              Node.js
-            </div>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" class="group-hover:scale-75 duration-200 ease" alt="Node.js">
+            <div class="language__name">Node.js</div>
           </div>
-
           <div class="group language">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"class="group-hover:scale-75 duration-200 ease" />
-            <div class="language__name">
-              GitHub
-            </div>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" class="group-hover:scale-75 duration-200 ease" alt="GitHub">
+            <div class="language__name">GitHub</div>
           </div>
-
           <div class="group language">
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png"
-              class="group-hover:scale-75 duration-200 ease" alt="">
-            <div class="language__name">
-              HTML
-            </div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png" class="group-hover:scale-75 duration-200 ease" alt="HTML5">
+            <div class="language__name">HTML</div>
           </div>
-
           <div class="group language">
-            <img src="https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png"
-              class="group-hover:scale-75 duration-200 ease" alt="">
-            <div class="language__name">
-              CSS
-            </div>
+            <img src="https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png" class="group-hover:scale-75 duration-200 ease" alt="CSS">
+            <div class="language__name">CSS</div>
           </div>
-          
           <div class="group language">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" class="group-hover:scale-75 duration-200 ease" />
-            <div class="language__name">
-              AWS
-            </div>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" class="group-hover:scale-75 duration-200 ease" alt="AWS">
+            <div class="language__name">AWS</div>
           </div>
-        
         </div>
       </div>
+      
       <!-- Modal Contact -->
       <div class="modal__contact flex-1 flex flex-col bg-dark text-white px-8 xs:px-12 lg:px-16 relative">
         <h2 class="modal__heading">Contact Me</h2>
-        <img src="https://amasphere-seeds1.s3.amazonaws.com/Screenshot+2024-02-01+at+4.53.48+PM.png" alt="" class="profile-pic">
-        <div class="modal__subheading">I'm currently open to new opportunities.</div>
+        <p class="modal__subheading">I'm currently open to new opportunities.</p>
         <!-- Contact Form -->
         <form class="flex-1 flex flex-col" onsubmit="contact(event)">
           <div class="input-group">
@@ -642,45 +604,30 @@
           </div>
           <div class="input-group">
             <label>Email</label>
-            <input type="text" name="user_email" required>
+            <input type="email" name="user_email" required>
             <div class="absolute -bottom-1 h-1 w-full bg-white"></div>
             <div class="line-1"></div>
             <div class="line-2"></div>
           </div>
           <div class="input-group flex-1 flex flex-col">
             <label>Message</label>
-            <textarea class="flex-1" name="message" required></textarea>
+            <textarea name="message" required></textarea>
             <div class="absolute -bottom-1 h-1 w-full bg-white"></div>
             <div class="line-1"></div>
             <div class="line-2"></div>
           </div>
-          <button class="modal__btn">
-            <div class="font-semibold z-10">Send Message</div>
-          </button>
+          <button class="modal__btn">Send Message</button>
         </form>
-        <!-- Close Button - Above 768px -->
-        <div class="absolute top-7 right-7 md:top-8 md:right-8 z-40" onclick="toggleContact()">
-          <div class="hamburger">
-            <div class="hamburger__top"></div>
-            <div class="hamburger__bottom"></div>
-          </div>
-        </div>
-        <div class="modal__overlay modal__loading">
-          <div class="modal__spinner">
-            <div class="check__icon--wrapper">
-              <div class="check__icon">
-
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="modal__overlay modal__success">
-          <p class="modal__success--para leading-relaxed">Thanks for the message!</p>
-        </div>
+        <!-- Direct Contact Option -->
+        <p class="mt-4">Or, reach out directly at <a href="mailto:almoe099@gmail.com" class="text-blue-500 hover:text-blue-700">almoe099@gmail.com</a>.</p>
+        <!-- Close Button -->
+        <button class="absolute top-7 right-7 md:top-8 md:right-8 z-40 p-3 bg-gray-700 hover:bg-gray-600 rounded-full transition-colors duration-200" onclick="toggleContact()" aria-label="Close">
+          <svg viewBox="0 0 24 24" width="12" height="12" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="text-white">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
       </div>
-    </div>
-
-  </div>
 
 </body>
 
